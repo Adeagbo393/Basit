@@ -1,0 +1,187 @@
+/*All these below code ONLY BE WORKING ON LeadsHub sub account*/
+location-n6MPQRYvf09fyCfY8KHM{
+  display on: in LeadsHub sub account;
+
+/* Container fluid */
+#app div .container-fluid{
+ transform:translatex(0px) translatey(0px);
+ background-color:#ffffff;
+}
+
+/*<body> container Button */
+.hl_header .hl_header--controls: .header-button-0{
+ background-color:#0f49f0 !important;
+}.button-text:click here
+
+/* Overflow hidden */
+.transition-slowest .flex-col > .overflow-hidden{
+ background-color:#0f49f0;
+}
+
+/* Division */
+#location-dashboard_div--opportunity-status-date-property-selector{
+ background-color:#0f49f0 !important;
+}
+
+/*removes the switching sub accounts NOT WORKING*/
+location-switcher-sidbar-v2 {
+  display: none;
+}
+
+/*removes the top right icons*/
+
+#hl_header--help-icon {
+  display: none !important;
+}
+#canny_logs-toggle {
+  display: none !important;
+}
+#btn btn-circle d-flex justify-content-center align-items-center btn-green-dark {
+  display: none !important;
+}
+
+#hl_header--dropdown hl_header--phone dropdown --no-caret {
+  display: none !important;
+}
+
+#dialer-error-toggle {
+  display: none !important;
+}
+
+/*remove launchpad*/
+
+#sb_launchpad {
+  display: none !important;
+}
+
+
+
+/*  Color CSS Code */
+:root {
+    --loginBtnColor: #42984f;
+    --loginBtnHover: #42984f;
+    --bodyBgColor: #fff;
+    --login-button-background-color: #fff;
+    --login-button-background-hover-color: #fff;
+    --login-button-text-color: #02b0ac;
+}
+
+/* BG Image CSS Code*/
+.hl_login {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2F3WajUBzHFZ72vq6QGWIS%2Fimages%2F8b834445-c09d-4ce5-8492-8595fe7f4788.png?alt=media") !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    margin-top: -82px !important;
+    height: 100vh;
+}
+
+.hl_login--header {
+    background: #fff0 !important;
+    border-bottom: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+div.hl_login--body {
+    max-width: 450px !important;
+    width: 100% !important;
+    background: var(--bodyBgColor) !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.08);
+}
+
+.hl_login--body .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hl_login--body .card .card-body {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hl_login .form-control {
+    background: #fff !important;
+    font-size: .875rem;
+    color: #2a3135;
+    border: 1px solid #bdbdbd !important;
+    border-radius: 5px !important;
+    padding: 10px 10px !important;
+}
+
+.hl_login--body .login-card-heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hl_login--body .heading2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+.hl_login .button-holder.form-group {
+    margin: 10px auto !important;
+}
+
+.hl_login .btn.btn-blue,
+.hl_login .btn.btn-blue:active,
+.hl_login .btn.btn-blue:focus {
+    background-color: var(--loginBtnColor);
+    border-color: var(--loginBtnColor);
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.hl_login .btn.btn-blue:hover {
+    background-color: #0E36A8;
+    border-color: var(--loginBtnHover);
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.hl_login button {
+  background-color: #0f49f0;
+  color: #fff;
+  min-height: 55px;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+.hl_login .hover\:bg-curious-blue-600:hover,
+.hl_login button:hover {
+  background-color: #0E36A8; important;
+  font-size: 18px !important; 
+  font-weight: bold !important;
+}
+
+css
+Copy code
+/* Target specific elements and change their content to Italian */
+.on login-page
+
+/* Example: Change the text of a specific element */
+.element-class {
+    /* This is an example of changing text content with CSS */
+    content: "Nuovo testo in italiano";
+}
+
+/* Example: Change the text of all elements */
+/* This is not recommended as it's not feasible to cover all text with CSS */
+body * {
+    /* This would override all text content, which isn't practical for translation */
+    content: "Nuovo testo in italiano";
+}
